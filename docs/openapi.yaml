@@ -1,18 +1,24 @@
 openapi: 3.1.0
 
+
 info:
   title: Task API
   version: 1.0.0
 
+
 servers:
   - url: http://localhost:3000
     description: Local development server
+  - url: http://localhost:3000
+    description: Local development server
+
 
 tags:
   - name: Tasks
     description: Task-related endpoints
   - name: Monitoring
     description: Operational endpoints, such as health checks
+
 
 paths:
   /tasks:
