@@ -9,8 +9,8 @@ info:
 servers:
   - url: http://localhost:3000
     description: Local development server
-  - url: http://localhost:3000
-    description: Local development server
+  - url: https://task-api-8tqn.onrender.com
+    description: Production server
 
 
 tags:
